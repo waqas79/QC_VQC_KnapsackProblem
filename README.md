@@ -20,7 +20,7 @@ The implementation of the VQC will be done using Qiskit. It will be trained usin
 
 Supervisor: Umut Çalıkyılmaz
 
-##Knapsack Problem Supplement
+## Knapsack Problem Supplement
 
 Knapsack problem is the problem of selecting some of the given items to put in a
 knapsack. Each item has a given weight and price. The knapsack has a weight capacity
