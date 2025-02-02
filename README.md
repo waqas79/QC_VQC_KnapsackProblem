@@ -35,15 +35,27 @@ values for the instances are not given in the file. The reason is that capacity 
 same for each problem, so you do not need to encode this value. The first array holds
 the weights of the items. Each weight value is an integer and they are separated by
 commas. As an example, the length array for the first problem instance is given below.
+
+
 [100,641,972,563,336,180,624,633]
+
+
 The prices of the items are given in the same format. The price array for the first
 problem instance is given below as an example.
+
+
 [353,1805,541,916,1539,1209,1658,1121]
+
+
 The last array in each line shows the optimal solution for the problem instance. In this
 array, 1(0) means the item is (not) selected to be inserted in the knapsack. For instance
 if the first number in this array is 1, it means that the first item is put into the knapsack.
 The solution array for the first problem instance is given below as an example.
+
+
 [1,1,0,0,1,1,1,0]
+
+
 You are expected to train your models using the given labeled data, where a weight
 array and a price array contains the initial values to be encoded in your quantum circuit,
 and the solution array is the label of the data. Therefore, supervised learning methods
